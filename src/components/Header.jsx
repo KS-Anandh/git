@@ -17,6 +17,7 @@ export default function Header() {
       <nav>
         <a href="/">Home</a>
         <a href="/profile">Profile</a>
+        <a href="/about">About</a>
       </nav>
 
       {user && <span>{user.name}</span>}
