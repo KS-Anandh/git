@@ -22,6 +22,7 @@ export default function Header() {
 
       {user && <span>{user.name}</span>}
       {user && <span>{user.name}</span>}
+      {user && <span>{user.name}</span>}
     </header>
   );
 }
