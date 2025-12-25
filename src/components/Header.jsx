@@ -14,6 +14,7 @@ export default function Header() {
     <header>
       <h1>My App</h1>
       {user && <span>{user.name}</span>}
+      {user && <span>{user.name}</span>}
     </header>
   );
 }
