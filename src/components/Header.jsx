@@ -21,6 +21,7 @@ export default function Header() {
       </nav>
 
       {user && <span>{user.name}</span>}
+      {user && <span>{user.name}</span>}
     </header>
   );
 }
